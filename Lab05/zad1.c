@@ -12,10 +12,10 @@ int main(){
         return 0;
     }
     for(int i = 1; i <= n; i++) {
-        suma += (long long) i*i;
+        suma += (long long)i*i;
     }
 
-    printf("Suma kwadratów od 1 do %d wynosi %lld\n, n, suma");
+    printf("Suma kwadratów od 1 do %d wynosi %lld\n", n, suma);
     return 0;
 
 }
